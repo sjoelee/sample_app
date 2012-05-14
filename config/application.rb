@@ -1,5 +1,6 @@
 require File.expand_path('../boot', __FILE__)
 
+require "sprockets/railtie"
 require 'rails/all'
 
 # If you have a Gemfile, require the gems listed there, including any gems
@@ -38,5 +39,7 @@ module SampleApp
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    config.assets.enabled = true
   end
 end
