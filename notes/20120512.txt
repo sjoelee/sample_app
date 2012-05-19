@@ -1,0 +1,7 @@
+- Wasn't sure why the custom.css.scss webpage wasn't loading correctly.
+- Included:
+    - "require "sprockets/railtie" tag in application.rb 
+    - "config.assets.enabled = true"
+    - and it works.   
+  - not sure how that solved it. Need to look into it. 
+

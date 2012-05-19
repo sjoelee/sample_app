@@ -1,0 +1,238 @@
+/* This should contain styles that appear on EVERY page */
+
+/* Base HTML style redefinitions */
+BODY {
+    font-family: Verdana, sans-serif;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    color:#42483a;    
+    background-color:#e1f5f3;
+    font-size:14px;
+}
+
+A, A:active, A:visited {
+    color:#75abee;
+    text-decoration:none;
+}
+
+A:hover {
+    color:#165db4;
+    text-decoration:none;
+}
+
+A:active {
+    position:relative;
+    top:1px;
+}
+
+
+IMG {
+    vertical-align:middle;
+    border:0;
+}
+
+H1 {
+    font-weight:normal;    
+    margin:0;
+    padding:0;
+    font-size:32px;
+    font-family:Helvetica;
+    color:#165DB4;
+}
+
+H1.title {
+    font-size:24px;
+    font-weight:normal;
+    font-variant: small-caps;
+	color:#68ba00;
+	padding-bottom:12px;
+	border-bottom:2px solid #D9FFA9;
+}
+
+H2 {
+    margin:0 0 4px 0;
+    padding:0;
+    font-size:22px;
+    font-family: Helvetica;
+    color:#68ba00;
+}
+
+H3 {
+    margin:0;
+    padding:0;
+    color:#165db4;
+}
+
+H4 {
+    margin:0;
+    padding:0 0 8px 0;
+	border-bottom:2px solid #D9FFA9;
+    margin-bottom:8px;
+    color:#68ba00;
+}
+
+/* Custom classes */
+#header {
+    /*background:#55f url(../img/test-gradient.png);
+    border-bottom:2px solid #00C;*/
+	height:48px;
+	padding:16px 32px;
+}
+
+#footer {
+    padding:16px;
+}
+
+#footer A, A:active, A:visited {
+    color:#75abee !important;
+    text-decoration:none;
+}
+
+.footer-col {
+    float:left;
+    width:150px;
+    text-align:center;
+}
+
+.footer-col > H3 {
+    font-family:'Reenie Beanie', Helvetica;
+    font-size:22px;
+}
+
+.footer-link {
+    font-size:12px;
+}
+
+#poll {
+    font-size:12px;
+}
+
+#poll p {
+    padding:0;
+    margin:0;
+}
+
+.details {
+	font-size:12px;
+    background-color:#F4FCE8;
+	padding:16px;
+	border-left: 1px solid #68ba00;
+	border-right: 1px solid #68ba00;
+    -webkit-box-shadow: 2px 2px 5px #999;
+}
+
+#poll > .section {
+    padding:8px;
+}
+
+.bpost {
+    padding: 16px 0 16px 0;
+    height:100px;
+    overflow:hidden;
+}
+
+.splash {
+	background: #D9FFA9;
+	border-bottom:4px solid #68ba00;
+	text-shadow: 0px 1px 0px #EEE;
+}
+
+.btn {
+    text-align:center;
+    color:#165db4;
+    padding:8px;
+    cursor:pointer;
+    border:2px solid #DDD;
+    background-color:#EEE;
+    margin-right:4px;
+    border-radius:8px;
+    font-size:14px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+}
+
+.btn:hover {
+    background-color:#FFF;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container A, A:active, A:visited {
+    color:#165db4;
+    text-decoration:none;
+}
+
+.feature {
+	padding-bottom: 16px;
+	margin: 0 0 16px 0;
+	font-size: 15px;
+    border-bottom:1px solid #c3ff76;
+}
+
+.feature-top {
+	padding-top: 16px;
+	margin: 16px 0 0 0;
+    border-top:1px solid #c3ff76;
+}
+
+.pl-box-header {
+    background: #D9FFA9;
+	border-bottom:4px solid #68ba00;
+	border-left: 1px solid #68ba00;
+	border-right: 1px solid #68ba00;
+	border-top: 1px solid #68ba00;
+    padding:16px;
+    -webkit-border-radius:8px 8px 0 0;
+    -moz-border-radius:8px 8px 0 0;
+    -webkit-box-shadow: 2px 2px 5px #999;
+}
+
+.pl-box-header H2 {
+    color:#333 !important;
+    font-weight:normal;
+    text-shadow: 0px 1px 0px #EEE;
+}
+
+.pl-box-header .caption {
+    color:#666 !important;
+    font-size:12px;
+}
+
+.pl-box {
+    padding:16px;
+    background-color:#FFF;
+	border-left: 1px solid #68ba00;
+	border-right: 1px solid #68ba00;
+	border-bottom: 1px solid #68ba00;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    margin-bottom:32px;
+}
+
+.pl-link-highlight {
+    margin-top:16px;
+    font-size:12px;
+    padding:8px 0 16px 8px;
+    background-color:#EEE;
+}
+
+.smiley {
+    text-align:center;
+    color:#999;
+    padding:16px;
+}
+
+.templates {
+    display:none;
+}
+
+.quote {
+	font-style:italic;
+    color:#4E9689;
+	font-size:18px;
+	text-align:center;
+	height:100px;
+}

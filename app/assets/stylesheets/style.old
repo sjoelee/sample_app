@@ -1,0 +1,79 @@
+.step-image {
+    float:left;
+}
+
+.step-title {
+    float:left;
+    margin: 12px 0 0 16px;
+}
+
+.food-item {
+    position:relative;
+    float:left;
+    text-align:center;
+    width:100px;
+    margin-bottom:16px;
+    margin-right:16px;
+    color:#42483a;
+    padding:8px;
+    cursor:pointer;
+    border:1px solid #68ba00;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+}
+
+.food-item-remove {
+    position:absolute;
+    top:-12px;
+    left:-12px;
+}
+
+.food-item-static {
+    float:left;
+    text-align:center;
+    width:112px;
+    margin-bottom:16px;
+    color:#AAA;
+    padding:8px;
+    border:1px solid #EEE;
+    margin-right:4px;    
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+}
+
+.food-item-sel {
+    background-color:#D9FFA9 !important;
+}
+
+.item-remove {
+    float:right;
+    padding:16px 8px 0 0;
+    cursor:pointer;
+}
+
+.fi-count {
+    padding-left:4px;
+    border-bottom:1px dashed #68ba00;
+}
+
+.fi-counter {
+    padding-top:20px;
+    margin-right:16px;
+    float:right;
+}
+
+.amount {
+    color:#1681d9;
+    font-weight:bold;
+}
+
+.submit {
+    font-size:20px;
+    color:#333;
+}
+
+.participant {
+    height:40px;
+}
