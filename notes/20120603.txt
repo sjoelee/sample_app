@@ -1,0 +1,5 @@
+- What are the should methods in
+  user_spec.rb?
+- What are the methods used in a user_spec.rb 
+- I don't understand spec.rb files:
+    - what kind of syntax do I use?
