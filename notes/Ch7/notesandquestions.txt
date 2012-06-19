@@ -1,0 +1,16 @@
+Questions
+==========
+1. What do attributes: accept-charset, action, class, id, and method in the form tag do (Refer to Listing 7.20)?
+A1. 
+ - The post method - Rails knows to construct a form with this method, which is
+   the way of creating a new object. 
+ - action and method attributes work together to post what the users have
+   inputted to the /users URI?? We'll see what it really does. 
+
+2. Why don't we create a route for the errors webpage?
+A1. Maybe because there is no routing necessary. We're not following a specific
+URI. 
+
+Notes
+=====
+1. For the error messages webpage, we don't have to create a route for it. 
