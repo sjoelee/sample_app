@@ -11,6 +11,9 @@ A1.
 A1. Maybe because there is no routing necessary. We're not following a specific
 URI. 
 
+3. How is en.yml linked??
+ 3a. How is it that deleting password: true get rid of the duplicity?
+
 Notes
 =====
 1. For the error messages webpage, we don't have to create a route for it. 
